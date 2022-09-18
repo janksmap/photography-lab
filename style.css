@@ -9,11 +9,16 @@ body {
     color: white;
 }
 
-/* .navbar-toggler {
-    position: absolute;
-    top: 0;
-    right: 100%;
-} */
+.navbar-toggler, .collapsed {
+    margin: 0 !important;
+    border: 2px;
+}
+
+.navbar-toggler:hover, .collapsed:hover {
+    color: black;
+    background-color: black;
+    /* border: 2px solid white !important; */
+}
 
 .bg-dark {
     background-color: black !important;
