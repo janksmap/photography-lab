@@ -1,0 +1,23 @@
+body {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(36, 182, 230, 0.686);
+}
+
+/* .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgb(36, 182, 230);
+    font-weight: bold;
+} */
+
+.active {
+    color: rgb(36, 182, 230) !important;
+    font-weight: bold;
+}
