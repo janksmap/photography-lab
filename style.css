@@ -50,6 +50,7 @@ button {
     color: white;
     border: 1px solid white;
     border-radius: 3px;
+    padding: 3px 5px;
 }
 
 button:hover {
@@ -77,4 +78,18 @@ a:visited:hover {
 .col-md img {
     width: 80%;
     margin: 20px;
+}
+
+#about-image img {
+    object-fit: cover;
+    height: 60vh;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.about {
+    width: 50%;
+    margin: 20px auto;
+    line-height: 40px;
 }
