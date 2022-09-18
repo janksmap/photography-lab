@@ -1,8 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Reem Kufi Ink', sans-serif;
     background-color: black;
     color: white;
 }
+
+/* .navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 100%;
+} */
 
 .bg-dark {
     background-color: black !important;
@@ -57,4 +68,13 @@ a:visited {
 
 a:visited:hover {
     color: black;
+}
+
+#portfolio-grid {
+    margin: 30px auto;
+}
+
+.col-md img {
+    width: 80%;
+    margin: 20px;
 }
